@@ -1,0 +1,54 @@
+h1{ font-size: 2em; margin: .67em 0 }
+h2{ font-size: 1.5em; margin: .75em 0 }
+h3{ font-size: 1.17em; margin: .83em 0 }
+h5{ font-size: .83em; margin: 1.5em 0 }
+h6{ font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,h5, h6{ font-weight: bolder }
+
+#wrap{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+#content{
+    position: relative;   
+    height: auto;
+    margin: auto;
+    background-color: beige;    
+}
+
+@media screen and (min-width: 1600px){
+    #content{ width: 1280px; }
+}
+
+@media screen and (min-width: 0px) and (max-width:1600px){
+    #content{ width: 1024px; }
+}
+
+header{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    height: 80px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    height: 80px;
+}
+
+#webTitle{
+    position: relative;
+    left: 5%;
+}
+
+div#bodyContent{
+    position: relative;
+    left: 2.5%;right: 2.5%;
+    width: 95%;
+    min-height: 600px;
+    padding-bottom: 3em;
+}
+

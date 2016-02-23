@@ -1,0 +1,118 @@
+[
+    {
+        "name": "gettext/languages",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mlocati/cldr-to-gettext-plural-rules.git",
+            "reference": "c43ade7e3fb68bcf2379036513dce8d20553d9c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mlocati/cldr-to-gettext-plural-rules/zipball/c43ade7e3fb68bcf2379036513dce8d20553d9c8",
+            "reference": "c43ade7e3fb68bcf2379036513dce8d20553d9c8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2015-03-27 11:32:41",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gettext\\Languages\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michele Locati",
+                "email": "mlocati@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "gettext languages with plural rules",
+        "homepage": "https://github.com/mlocati/cldr-to-gettext-plural-rules",
+        "keywords": [
+            "cldr",
+            "i18n",
+            "internationalization",
+            "l10n",
+            "language",
+            "languages",
+            "localization",
+            "php",
+            "plural",
+            "plural rules",
+            "plurals",
+            "translate",
+            "translations",
+            "unicode"
+        ]
+    },
+    {
+        "name": "gettext/gettext",
+        "version": "v3.5.8",
+        "version_normalized": "3.5.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oscarotero/Gettext.git",
+            "reference": "e93f74356280016bd50c41c62cc858c3005791e7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oscarotero/Gettext/zipball/e93f74356280016bd50c41c62cc858c3005791e7",
+            "reference": "e93f74356280016bd50c41c62cc858c3005791e7",
+            "shasum": ""
+        },
+        "require": {
+            "gettext/languages": "2.*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "illuminate/view": "*",
+            "twig/extensions": "*",
+            "twig/twig": "*"
+        },
+        "suggest": {
+            "illuminate/view": "Is necessary if you want to use the Blade extractor",
+            "twig/extensions": "Is necessary if you want to use the Twig extractor",
+            "twig/twig": "Is necessary if you want to use the Twig extractor"
+        },
+        "time": "2016-01-20 22:08:43",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gettext\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oscar Otero",
+                "email": "oom@oscarotero.com",
+                "homepage": "http://oscarotero.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP gettext manager",
+        "homepage": "https://github.com/oscarotero/Gettext",
+        "keywords": [
+            "JS",
+            "gettext",
+            "i18n",
+            "mo",
+            "po",
+            "translation"
+        ]
+    }
+]

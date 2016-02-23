@@ -1,0 +1,5 @@
+{
+    "require": {
+        "gettext/gettext": "3.5.*"
+    }
+}
